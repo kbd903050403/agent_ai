@@ -1,0 +1,25 @@
+{
+  "inline": {
+    "csv": "../inline/sample_inline_fail.csv",
+    "spec": "../inline/sample_spec.csv",
+    "notes": "../inline/engineer_notes_sample.txt",
+    "alignment_tolerance": 0.0,
+    "model": "gpt-5-mini"
+  },
+  "defect": {
+    "data_csv": "../defect/defect_data.csv",
+    "images_base": "../defect",
+    "notes": "../defect/engineer_notes_sample.txt",
+    "spec_total": 100,
+    "spec_dr": 50,
+    "model": "gpt-5-mini"
+  },
+  "fdc": {
+    "timeseries_csv": "../fdc/timeseries.csv",
+    "trend_images_csv": "../fdc/trend_images.csv",
+    "images_base": "../fdc",
+    "fail_csv": "../fdc/taq_fail.csv",
+    "notes": "../fdc/engineer_notes_sample.txt",
+    "model": "gpt-5-mini"
+  }
+}

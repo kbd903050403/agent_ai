@@ -1,0 +1,3 @@
+Use PASS if pattern similarity exists across peers/history even near spec limits.
+Prioritize matching spatial trends (ring/edge/center) over raw counts.
+If no comparable trend or evidence, keep FAIL.

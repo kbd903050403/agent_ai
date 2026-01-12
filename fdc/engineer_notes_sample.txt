@@ -1,0 +1,3 @@
+PASS 가능 기준: 동일 step에서 유사한 드리프트/피크/노이즈 패턴이 peer/history에 존재.
+Fail step 중심으로 trend shape(증가/감소/oscillation)를 우선 비교.
+근거 부족하거나 방향성 불일치 시 FAIL 유지

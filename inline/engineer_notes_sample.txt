@@ -1,0 +1,4 @@
+Spec 평균 대비 ±5% 이내 변동은 PASS 가능.
+동일 RCP/동시간대 peer tool도 동일 방향으로 drift가 있으면 PASS 고려.
+이전 history run과 동일 조건에서 spec-out이 반복되면 유지보수 계획 후 PASS 가능.
+근거 부족하거나 peer/history와 불일치하면 FAIL 유지.

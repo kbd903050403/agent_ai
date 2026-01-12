@@ -1,0 +1,5 @@
+parameter,spec_min,spec_max
+thickness,730.0,740.0
+range,0.0,2.0
+edge_thk,730.0,740.0
+edge_range,0.0,2.2

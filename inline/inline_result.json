@@ -1,0 +1,627 @@
+{
+  "analysis_payload": {
+    "spec_out_strings": [
+      "thickness mean above spec_max (740.000 um); current 742.320 um; vertical match: no; horizontal match: no",
+      "thickness min above spec_max (740.000 um); current 741.800 um; vertical match: no; horizontal match: no",
+      "thickness max above spec_max (740.000 um); current 742.900 um; vertical match: no; horizontal match: no"
+    ],
+    "comparison_rows": [
+      {
+        "parameter": "thickness",
+        "metric": "mean",
+        "current": 742.32,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 734.83,
+        "vertical_max": 735.34,
+        "horizontal_min": 734.84,
+        "horizontal_max": 735.33,
+        "spec_out": true,
+        "vertical_match": false,
+        "horizontal_match": false
+      },
+      {
+        "parameter": "thickness",
+        "metric": "min",
+        "current": 741.8,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 732.7,
+        "vertical_max": 733.6,
+        "horizontal_min": 733.1,
+        "horizontal_max": 733.2,
+        "spec_out": true,
+        "vertical_match": false,
+        "horizontal_match": false
+      },
+      {
+        "parameter": "thickness",
+        "metric": "max",
+        "current": 742.9,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 736.8,
+        "vertical_max": 737.0,
+        "horizontal_min": 736.5,
+        "horizontal_max": 737.4,
+        "spec_out": true,
+        "vertical_match": false,
+        "horizontal_match": false
+      },
+      {
+        "parameter": "range",
+        "metric": "mean",
+        "current": 1.112,
+        "spec_min": 0.0,
+        "spec_max": 2.0,
+        "vertical_min": 1.073,
+        "vertical_max": 1.194,
+        "horizontal_min": 1.074,
+        "horizontal_max": 1.193,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "range",
+        "metric": "min",
+        "current": 1.06,
+        "spec_min": 0.0,
+        "spec_max": 2.0,
+        "vertical_min": 0.86,
+        "vertical_max": 1.02,
+        "horizontal_min": 0.9,
+        "horizontal_max": 0.98,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "range",
+        "metric": "max",
+        "current": 1.17,
+        "spec_min": 0.0,
+        "spec_max": 2.0,
+        "vertical_min": 1.28,
+        "vertical_max": 1.36,
+        "horizontal_min": 1.24,
+        "horizontal_max": 1.4,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_thk",
+        "metric": "mean",
+        "current": 734.92,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 734.94,
+        "vertical_max": 735.24,
+        "horizontal_min": 735.04,
+        "horizontal_max": 735.23,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_thk",
+        "metric": "min",
+        "current": 734.4,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 732.9,
+        "vertical_max": 733.5,
+        "horizontal_min": 733.1,
+        "horizontal_max": 733.3,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_thk",
+        "metric": "max",
+        "current": 735.5,
+        "spec_min": 730.0,
+        "spec_max": 740.0,
+        "vertical_min": 736.6,
+        "vertical_max": 737.1,
+        "horizontal_min": 736.7,
+        "horizontal_max": 737.3,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_range",
+        "metric": "mean",
+        "current": 1.342,
+        "spec_min": 0.0,
+        "spec_max": 2.2,
+        "vertical_min": 1.243,
+        "vertical_max": 1.394,
+        "horizontal_min": 1.244,
+        "horizontal_max": 1.393,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_range",
+        "metric": "min",
+        "current": 1.29,
+        "spec_min": 0.0,
+        "spec_max": 2.2,
+        "vertical_min": 1.03,
+        "vertical_max": 1.22,
+        "horizontal_min": 1.07,
+        "horizontal_max": 1.18,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      },
+      {
+        "parameter": "edge_range",
+        "metric": "max",
+        "current": 1.4,
+        "spec_min": 0.0,
+        "spec_max": 2.2,
+        "vertical_min": 1.45,
+        "vertical_max": 1.56,
+        "horizontal_min": 1.41,
+        "horizontal_max": 1.6,
+        "spec_out": false,
+        "vertical_match": null,
+        "horizontal_match": null
+      }
+    ],
+    "stats_rows": [
+      {
+        "group": "current_run",
+        "parameter": "thickness",
+        "mean": 742.32,
+        "min": 741.8,
+        "max": 742.9
+      },
+      {
+        "group": "current_run",
+        "parameter": "range",
+        "mean": 1.112,
+        "min": 1.06,
+        "max": 1.17
+      },
+      {
+        "group": "current_run",
+        "parameter": "edge_thk",
+        "mean": 734.92,
+        "min": 734.4,
+        "max": 735.5
+      },
+      {
+        "group": "current_run",
+        "parameter": "edge_range",
+        "mean": 1.342,
+        "min": 1.29,
+        "max": 1.4
+      },
+      {
+        "group": "peer_tool_1",
+        "parameter": "thickness",
+        "mean": 734.84,
+        "min": 733.1,
+        "max": 736.5
+      },
+      {
+        "group": "peer_tool_1",
+        "parameter": "range",
+        "mean": 1.074,
+        "min": 0.9,
+        "max": 1.24
+      },
+      {
+        "group": "peer_tool_1",
+        "parameter": "edge_thk",
+        "mean": 735.04,
+        "min": 733.3,
+        "max": 736.7
+      },
+      {
+        "group": "peer_tool_1",
+        "parameter": "edge_range",
+        "mean": 1.244,
+        "min": 1.07,
+        "max": 1.41
+      },
+      {
+        "group": "peer_tool_2",
+        "parameter": "thickness",
+        "mean": 735.33,
+        "min": 733.2,
+        "max": 737.4
+      },
+      {
+        "group": "peer_tool_2",
+        "parameter": "range",
+        "mean": 1.193,
+        "min": 0.98,
+        "max": 1.4
+      },
+      {
+        "group": "peer_tool_2",
+        "parameter": "edge_thk",
+        "mean": 735.23,
+        "min": 733.1,
+        "max": 737.3
+      },
+      {
+        "group": "peer_tool_2",
+        "parameter": "edge_range",
+        "mean": 1.393,
+        "min": 1.18,
+        "max": 1.6
+      },
+      {
+        "group": "history_run_1",
+        "parameter": "thickness",
+        "mean": 735.14,
+        "min": 733.4,
+        "max": 736.8
+      },
+      {
+        "group": "history_run_1",
+        "parameter": "range",
+        "mean": 1.114,
+        "min": 0.94,
+        "max": 1.28
+      },
+      {
+        "group": "history_run_1",
+        "parameter": "edge_thk",
+        "mean": 734.94,
+        "min": 733.2,
+        "max": 736.6
+      },
+      {
+        "group": "history_run_1",
+        "parameter": "edge_range",
+        "mean": 1.344,
+        "min": 1.17,
+        "max": 1.51
+      },
+      {
+        "group": "history_run_2",
+        "parameter": "thickness",
+        "mean": 734.83,
+        "min": 732.7,
+        "max": 736.9
+      },
+      {
+        "group": "history_run_2",
+        "parameter": "range",
+        "mean": 1.073,
+        "min": 0.86,
+        "max": 1.28
+      },
+      {
+        "group": "history_run_2",
+        "parameter": "edge_thk",
+        "mean": 735.03,
+        "min": 732.9,
+        "max": 737.1
+      },
+      {
+        "group": "history_run_2",
+        "parameter": "edge_range",
+        "mean": 1.243,
+        "min": 1.03,
+        "max": 1.45
+      },
+      {
+        "group": "history_run_3",
+        "parameter": "thickness",
+        "mean": 735.34,
+        "min": 733.6,
+        "max": 737.0
+      },
+      {
+        "group": "history_run_3",
+        "parameter": "range",
+        "mean": 1.194,
+        "min": 1.02,
+        "max": 1.36
+      },
+      {
+        "group": "history_run_3",
+        "parameter": "edge_thk",
+        "mean": 735.24,
+        "min": 733.5,
+        "max": 736.9
+      },
+      {
+        "group": "history_run_3",
+        "parameter": "edge_range",
+        "mean": 1.394,
+        "min": 1.22,
+        "max": 1.56
+      }
+    ],
+    "bounds_rows": [
+      {
+        "group": "spec",
+        "parameter": "thickness",
+        "metric": "mean",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "thickness",
+        "metric": "min",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "thickness",
+        "metric": "max",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "range",
+        "metric": "mean",
+        "min": 0.0,
+        "max": 2.0
+      },
+      {
+        "group": "spec",
+        "parameter": "range",
+        "metric": "min",
+        "min": 0.0,
+        "max": 2.0
+      },
+      {
+        "group": "spec",
+        "parameter": "range",
+        "metric": "max",
+        "min": 0.0,
+        "max": 2.0
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_thk",
+        "metric": "mean",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_thk",
+        "metric": "min",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_thk",
+        "metric": "max",
+        "min": 730.0,
+        "max": 740.0
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_range",
+        "metric": "mean",
+        "min": 0.0,
+        "max": 2.2
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_range",
+        "metric": "min",
+        "min": 0.0,
+        "max": 2.2
+      },
+      {
+        "group": "spec",
+        "parameter": "edge_range",
+        "metric": "max",
+        "min": 0.0,
+        "max": 2.2
+      },
+      {
+        "group": "vertical",
+        "parameter": "thickness",
+        "metric": "mean",
+        "min": 734.83,
+        "max": 735.34
+      },
+      {
+        "group": "vertical",
+        "parameter": "thickness",
+        "metric": "min",
+        "min": 732.7,
+        "max": 733.6
+      },
+      {
+        "group": "vertical",
+        "parameter": "thickness",
+        "metric": "max",
+        "min": 736.8,
+        "max": 737.0
+      },
+      {
+        "group": "vertical",
+        "parameter": "range",
+        "metric": "mean",
+        "min": 1.073,
+        "max": 1.194
+      },
+      {
+        "group": "vertical",
+        "parameter": "range",
+        "metric": "min",
+        "min": 0.86,
+        "max": 1.02
+      },
+      {
+        "group": "vertical",
+        "parameter": "range",
+        "metric": "max",
+        "min": 1.28,
+        "max": 1.36
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_thk",
+        "metric": "mean",
+        "min": 734.94,
+        "max": 735.24
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_thk",
+        "metric": "min",
+        "min": 732.9,
+        "max": 733.5
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_thk",
+        "metric": "max",
+        "min": 736.6,
+        "max": 737.1
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_range",
+        "metric": "mean",
+        "min": 1.243,
+        "max": 1.394
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_range",
+        "metric": "min",
+        "min": 1.03,
+        "max": 1.22
+      },
+      {
+        "group": "vertical",
+        "parameter": "edge_range",
+        "metric": "max",
+        "min": 1.45,
+        "max": 1.56
+      },
+      {
+        "group": "horizontal",
+        "parameter": "thickness",
+        "metric": "mean",
+        "min": 734.84,
+        "max": 735.33
+      },
+      {
+        "group": "horizontal",
+        "parameter": "thickness",
+        "metric": "min",
+        "min": 733.1,
+        "max": 733.2
+      },
+      {
+        "group": "horizontal",
+        "parameter": "thickness",
+        "metric": "max",
+        "min": 736.5,
+        "max": 737.4
+      },
+      {
+        "group": "horizontal",
+        "parameter": "range",
+        "metric": "mean",
+        "min": 1.074,
+        "max": 1.193
+      },
+      {
+        "group": "horizontal",
+        "parameter": "range",
+        "metric": "min",
+        "min": 0.9,
+        "max": 0.98
+      },
+      {
+        "group": "horizontal",
+        "parameter": "range",
+        "metric": "max",
+        "min": 1.24,
+        "max": 1.4
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_thk",
+        "metric": "mean",
+        "min": 735.04,
+        "max": 735.23
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_thk",
+        "metric": "min",
+        "min": 733.1,
+        "max": 733.3
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_thk",
+        "metric": "max",
+        "min": 736.7,
+        "max": 737.3
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_range",
+        "metric": "mean",
+        "min": 1.244,
+        "max": 1.393
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_range",
+        "metric": "min",
+        "min": 1.07,
+        "max": 1.18
+      },
+      {
+        "group": "horizontal",
+        "parameter": "edge_range",
+        "metric": "max",
+        "min": 1.41,
+        "max": 1.6
+      }
+    ],
+    "spec_limits": {
+      "thickness": {
+        "min": 730.0,
+        "max": 740.0
+      },
+      "range": {
+        "min": 0.0,
+        "max": 2.0
+      },
+      "edge_thk": {
+        "min": 730.0,
+        "max": 740.0
+      },
+      "edge_range": {
+        "min": 0.0,
+        "max": 2.2
+      }
+    },
+    "alignment_tolerance": 0.0,
+    "units": "um"
+  },
+  "llm_result": {
+    "status": "FAIL",
+    "reason": "thickness mean/min/max가 spec_max(740.0um)를 초과(현재 742.32 / 741.80 / 742.90um)하나, spec 평균(=(730+740)/2=735um) 대비 편차는 각각 약 0.99% / 0.93% / 1.08%로 엔지니어 노트의 ±5% 기준은 만족함. 그러나 엔지니어 노트와 개발자 지침에 따라 수직(이전 history)·수평(peer) 비교가 일치해야 PASS 고려 가능함. 현재 vertical_match 및 horizontal_match 모두 false이며, peer tool 평균(≈734.84, 735.33um)과 history 평균(≈734.8–735.3um)은 상기 방향(상승)으로 drift를 보이지 않음. 또한 이전 history에서 동일한 spec-out 반복도 확인되지 않음. 근거(동일 방향의 peer drift 또는 반복된 history spec-out)가 부족하므로 FAIL 유지 판단함."
+  }
+}
